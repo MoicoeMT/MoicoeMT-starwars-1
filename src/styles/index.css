@@ -1,3 +1,127 @@
-/* 
-    General Styles
-*/
+body {
+  background-color: rgb(12, 12, 12);
+}
+#peopleDetailscss {
+  background-color: rgba(80, 75, 75, 0.433);
+  color: white;
+  font-family: "Tektur", sans-serif;
+  font-size: 20px;
+  margin: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  width: 70%;
+}
+#planetsDetailscss {
+  background-color: rgba(80, 75, 75, 0.433);
+  color: white;
+  font-family: "Tektur", sans-serif;
+  font-size: 20px;
+  margin: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  width: 80%;
+}
+#vehiclesDetailscss {
+  background-color: rgba(80, 75, 75, 0.433);
+  color: white;
+  font-family: "Tektur", sans-serif;
+  font-size: 20px;
+  margin: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  width: 85%;
+}
+
+#cardscontainer {
+  width: 85%;
+}
+#cardsscss {
+  background-color: rgba(80, 75, 75, 0.214);
+  color: white;
+  font-family: "Tektur", sans-serif;
+  width: 17rem !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px !important;
+}
+
+#peoplecardsscss {
+  background-color: rgba(80, 75, 75, 0.214);
+  color: white;
+  font-family: "Tektur", sans-serif;
+  width: 17rem !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px !important;
+}
+
+#imagestar {
+  width: 110px;
+  height: 70px;
+}
+
+.modal-dialog {
+  border: black solid 1px;
+  border-radius: 5px;
+}
+
+#navcontent {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#slider1,
+#slider2,
+#slider3,
+#slider4 {
+  width: 100%;
+  height:300px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+h1 {
+  font-family: "Bungee Spice", sans-serif;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  background-color: rgba(160, 69, 24, 0.936);
+}
+
+
+#imagenDetails {
+  width: 100%;
+  height: 300px;
+}
+
+h5 {
+  color: rgb(255, 171, 3);
+}
+h6 {
+  color: rgb(255, 171, 3);
+}
+
+strong {
+  color: rgb(255, 251, 0) !important;
+}
+
+#fondo {
+  background-color: aliceblue;
+  padding: 50px;
+  background: url("https://images.pexels.com/photos/7538746/pexels-photo-7538746.jpeg")
+    no-repeat center center/ cover;
+}
+
+hr {
+  color: rgb(255, 255, 255);
+}
+
+#deletebutton{
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(99, 4, 4);
+  border-radius: 5px;
+  background-color: rgba(165, 42, 42, 0.579);
+}
