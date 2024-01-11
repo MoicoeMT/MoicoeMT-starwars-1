@@ -9,19 +9,44 @@ const Footer = () => {
         <p className="pt-3">All Rights Reserved.</p>
       </div>
       <div className="d-flex gap-2 text-secondary">
-        <a className="text-secondary" href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+        <a
+          className="text-secondary"
+          href="https://www.facebook.com/?locale=es_LA"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fa-brands fa-facebook"></i>
         </a>
-        <a className="text-secondary" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+        <a
+          className="text-secondary"
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fa-brands fa-instagram"></i>
         </a>
-        <a className="text-secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <a
+          className="text-secondary"
+          href="https://github.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fa-brands fa-github"></i>
         </a>
-        <a className="text-secondary" href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-x-twitter"></i>
+        <a
+          className="text-secondary"
+          href="https://twitter.com/?lang=es"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-x-twitter"></i>
         </a>
-        <a className="text-secondary" href="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fmynetwork%2F&trk=login_reg_redirect" target="_blank" rel="noopener noreferrer">
+        <a
+          className="text-secondary"
+          href="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fmynetwork%2F&trk=login_reg_redirect"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fa-brands fa-linkedin"></i>
         </a>
       </div>

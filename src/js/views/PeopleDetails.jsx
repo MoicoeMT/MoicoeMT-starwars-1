@@ -9,7 +9,7 @@ const PeopleDetails = () => {
 
   return (
     <div id="fondo">
-      <div id="peopleDetailscss" className="container card mb-3 mt-5">
+      <div id="peopleDetailscss" className="container card mb-5 mt-5">
         <div className="row">
           <div className="col-md-4 p-0">
             <img id="imagenDetails" src={`https://starwars-visualguide.com/assets/img/characters/${peopleFilter.result.uid}.jpg`} className="img-fluid h-100 rounded-start" alt="..." />

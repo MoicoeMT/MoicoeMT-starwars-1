@@ -68,14 +68,17 @@ const Navbar = () => {
                         {store.favorites.map((navitem) => {
                           return (
                             <div key={navitem.result._id}>
-                              <div
-                                className="d-flex justify-content-between align-items-center mb-2"
-                                
-                              >
+                              <div className="d-flex justify-content-between align-items-center mb-2">
                                 <p className="fs-5">
                                   {navitem.result.properties.name}
                                 </p>
-                                <button id="deletebutton" onClick={() => actions.deleteFavorites(navitem)} className="btn">
+                                <button
+                                  id="deletebutton"
+                                  onClick={() =>
+                                    actions.deleteFavorites(navitem)
+                                  }
+                                  className="btn"
+                                >
                                   <i className="fa-solid fa-trash"></i>
                                 </button>
                               </div>

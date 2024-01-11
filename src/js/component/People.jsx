@@ -44,11 +44,11 @@ const People = () => {
     ],
   };
   return (
-    <> 
+    <>
       <div id="cardscontainer" className="container-fluid my-5">
         <h1 className="text-danger">| People</h1>
         <hr />
-        <Slider  {...settings} className="">
+        <Slider {...settings} className="">
           {store.people.length > 0 ? (
             store.people.map((item, index) => {
               return (

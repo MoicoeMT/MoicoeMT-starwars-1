@@ -11,7 +11,7 @@ const Details = () => {
 
   return (
     <div id="fondo">
-      <div id="vehiclesDetailscss" className="container card ">
+      <div id="vehiclesDetailscss" className="container card">
         <div className="row">
           <div className="col-md-4 p-0">
             <img

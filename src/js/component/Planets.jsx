@@ -53,7 +53,9 @@ const Planets = () => {
               return (
                 <div key={index} id="cardsscss" className="card">
                   <img
-                    src={`https://starwars-visualguide.com/assets/img/planets/${planetItem.result.uid == 1 ? 8 : planetItem.result.uid}.jpg`}
+                    src={`https://starwars-visualguide.com/assets/img/planets/${
+                      planetItem.result.uid == 1 ? 8 : planetItem.result.uid
+                    }.jpg`}
                     className="card-img-top"
                     alt="..."
                   />
@@ -66,9 +68,7 @@ const Planets = () => {
                       <li>
                         Population: {planetItem.result.properties.population}
                       </li>
-                      <li>
-                        Diameter: {planetItem.result.properties.diameter}
-                      </li>
+                      <li>Diameter: {planetItem.result.properties.diameter}</li>
                     </small>
                     <hr />
                     <div className="d-flex justify-content-between">

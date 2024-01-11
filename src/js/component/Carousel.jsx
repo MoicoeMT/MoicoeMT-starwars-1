@@ -24,7 +24,7 @@ const Carousel = () => {
           className="d-block w-100"
         />
       </div>
-      <div id="slider2">  
+      <div id="slider2">
         <img
           src="https://a2so.org/wp-content/uploads/2019/08/star-wars-banner-art.jpg"
           className="d-block w-100"
