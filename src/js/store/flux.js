@@ -39,11 +39,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 
       deleteFavorites: (item) => {
         const favoritesStore = getStore();
-        const updatedFavorites = favoritesStore.favorites.filter(
+        const updatedFav = favoritesStore.favorites.filter(
           (element) => element.result._id !== item.result._id
         );
-        setStore({ favorites: updatedFavorites });
-        localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
+        setStore({ favorites: updatedFav });
+        localStorage.setItem("favorites", JSON.stringify(updatedFav));
       },
     },
   };
