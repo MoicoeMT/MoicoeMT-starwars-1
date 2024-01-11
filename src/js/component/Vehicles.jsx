@@ -47,7 +47,6 @@ const Vehicles = () => {
     <>
       <div id="cardscontainer" className="container-fluid my-5">
         <h1 className="text-danger ">| Vehicles</h1>
-        <hr />
         <Slider {...settings} className="">
           {store.vehicles.length > 0 ? (
             store.vehicles.map((vehiclesItem, index) => {
